@@ -10,27 +10,21 @@ searchname.addEventListener("click", () =>{
      .then(resp => resp.json() )
      .then(data => {
           console.log(data);
-
-       for(let i=0; i<data.lenght; i++)
-       {
           let showmovie=document.getElementById("root");
 
-          let cont=document.createElement("div");
+          const listmovie=data.Search.map (element => {(
+             console.log(element.Title)); 
 
-          let imagenmovie= document.createElement("img");
-          imagenmovie.src=data[i].Poster;
+             return   `<div class="style-card">
+                           <img src="${element.Poster}">  
+                           <h1> Titulo: ${element.Title}</h1>
+                           <h3> Year: ${element.Year}</h3>
+                        </div> ` 
+            }).join() ;
+          
+            showmovie.innerHTML=listmovie;
 
-          let titlemovie=document.createElement("h1");
-          titlemovie.textContent=data[i].Title;
 
-
-          showmovie.appendChild(cont);
-          cont.appendChild(img);
-          cont.appendChild(titlemovie);
-
-          showmovie.innerHTML;
-
-       }   
 })
 
 });
