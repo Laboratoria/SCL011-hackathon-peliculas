@@ -9,9 +9,22 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
-    <input id="searchtitle"></input>
-    <button id="btnsearch">Buscar</button>
+    <header id="filters">
+        <!-- <label for="">GENERO</label> -->
+       <select id="filtersgenres">
+        <option selected disabled>Seleccione Genero</option>
+        <option value="28">Acción</option>
+        <option value="35">Comedia</option>
+        <option value="878">Ciencia Ficción</option>
+        <option value="18">Drama</option>
+        <option value="53">Terror</option>
+        <option value="10749">Romance</option>
+      </select>
+        <input id="searchtitle" placeholder="Search for name"></input>
+        <button id="btnsearch">Buscar</button>
+        <button id="return">Pagina Inicial</button>
+    </header>
+    <br>
     <div id="root"></div>
     <script src="main.js"></script>
 </body>
