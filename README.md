@@ -165,7 +165,7 @@ En la pantalla de inicio se hizo un botón para cambiar contraste de página.
 
 ## 9.- Nuestro Producto Final**
 
-> **¿Quieres verlo funcionar?** Anda ahora mismo a revisar nuestro Pagina (https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html)
+> **¿Quieres verlo funcionar?** Anda ahora mismo a revisar nuestra [Pagina](https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html)
 
 
 ## 10.-   Conclusiones y detalle de tareas por cada integrante
