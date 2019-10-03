@@ -16,19 +16,32 @@ header{
     margin: 5% auto ;
 }
 #root{
+   
+    
+    width: 80%;
+    max-width: 1500px;
+    margin: 20px auto;
     display: grid;
-    flex-direction: row;
-    flex-flow:wrap;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 4%;
-    align-items: baseline;
-    margin-left: auto;
-    margin-right: auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas:
+                         "header header header header"
+                         "contenedorimg contenedorimg contenedorimg";
  
+                       
 }
+
+.header{
+    grid-area: header;
+}
+
+
 .style-card {
     background: #ae0000;
-
+     margin:1%;
+    padding: 5%; 
+ 
 }
 .logo {
     width: 80%;
