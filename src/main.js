@@ -10,10 +10,11 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=71949b65aff64acdb6a0f
       const listmovie2=data.results.map(element =>{
 
             return   `<div class="style-card">
-                          <img src= "${'https://image.tmdb.org/t/p/w500'+element.poster_path}">  
+                          <img src= "${'https://image.tmdb.org/t/p/w500'+element.poster_path}">
+                          <section class= "seccion">  
                           <h1> ${element.title}</h1>
                           <h3>Year: ${element.release_date}</h3>
-                          <h4> Reseña: ${element.overview}</h4>
+                          <h4> Reseña: ${element.overview}</h4> </section>
                        </div>` 
            }).join('');
          
@@ -38,9 +39,10 @@ searchname.addEventListener("click", () =>{
           const listmovie=data.Search.map (element => {
               
              return   `<div class="style-card">
-                           <img src="${element.Poster}">  
+                           <img src="${element.Poster}">
+                           <section class= "seccion">
                            <h1> Titulo: ${element.Title}</h1>
-                           <h3> Year: ${element.Year}</h3>
+                           <h3> Year: ${element.Year}</h3></section>
                         </div>` 
             }).join('');
           
@@ -67,10 +69,11 @@ fetch('https://api.themoviedb.org/3/discover/movie?api_key=71949b65aff64acdb6a0f
       const listmoviefilter=data.results.map(element =>{
    
             return   `<div class="style-card">
-                          <img src= "${'https://image.tmdb.org/t/p/w500'+element.poster_path}">  
+                          <img src= "${'https://image.tmdb.org/t/p/w500'+element.poster_path}">
+                          <section class= "seccion">  
                           <h1> ${element.title}</h1>
                           <h3>Year: ${element.release_date}</h3>
-                          <h4> Reseña: ${element.overview}</h4>
+                          <h4> Reseña: ${element.overview}</h4></section>
                        </div>` 
            }).join('');
          
