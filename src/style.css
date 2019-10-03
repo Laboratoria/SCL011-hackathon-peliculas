@@ -16,6 +16,8 @@ header{
     justify-content: space-evenly;
     margin: 5% auto ;
 }
+
+
 #root{
    
     
@@ -24,8 +26,8 @@ header{
     margin: 20px auto;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(6,auto);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
     grid-template-areas:
                          "header header header header"
                          "contenedorimg contenedorimg contenedorimg";
