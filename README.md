@@ -1,91 +1,141 @@
-# "Hackathon" de final de _Common Core_, películas
+<a href="https://ibb.co/Z85LPxm"><img src="https://i.ibb.co/mqkDw48/logotipo-02-01.jpg" alt="logotipo-02-01" border="0"></a>
 
- ## Índice
+## **Índice**
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+1.- Preámbulo
+2.- Planning 
+3.- Definición de usuario
+   -   Encuesta y análisis
+   
+4.- Historias de usuario
+5.- Flujo de app
 
- ***
+6.- Desarrollo de Interfaz UI
+- Inspiraciones para definir app
+-   Paleta de colores
+-   Tipografías
 
- ## **Preámbulo**
-
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
-
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
-
- ## **Resumen del proyecto**
-
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
-
- ## **Consideraciones generales**
-
- * Este proyecto se debe resolver en equipos de hasta 5 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 3 días.
+7.- Testing
+	
+8.-   Conclusiones
 
 
- ## **Objetivos de aprendizaje**
+## **1. Preámbulo**
 
- * Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+El mundo de la tecnología va creciendo cada año y con ello distintas plataformas de streaming también. Hoy en día en cualquier lugar se puede tener acceso a una gran cantidad de películas. Es por ello que se ha creado la aplicación **Movielennial** la cuál se creó para encontrar información de distintas películas, donde el usuario podrá buscar películas por distintos filtros. 
 
- ## **Parte Obligatoria**
+ Además dado que la Organización Mundial de la Salud reporta que hay 1000 millones de personas en el mundo experimentando alguna forma de discapacidad, esta aplicación busca ser accesible para que la experiencia de cualquier usuario objetivo sea grata.
 
- * Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+## 2.- Planning 
 
- ## **Consideraciones técnicas**
+### Organización de proyecto 
 
- * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
+La organización para el cumplimiento del proyecto se realizó en Trello, distribuyendo las tareas por día y por disciplina. 
+
+A continuación link de Trello: [https://trello.com/b/Jq8lUPOi/hackaton-peliculas](https://trello.com/b/Jq8lUPOi/hackaton-peliculas)
 
 
-## **Horario**
+## 3.- Definición de usuario
 
-|       |   Martes           |  Miércoles         |   Jueves                   |
-|------ | -------------------| ------------------ | -------------------------- |
-| 8:00  |  Kick off hackaton |  Daily por squad   |  Daily por squad           |
-| 9:00  |  Sesión de planificación|  Hackeo       |  Hackeo/Detalles finales/ Inscripción de aplicaciones            
-| 10:00 |  Hackeo|          |                     |Feria de demostraciones     |
-| 11:00 |                   |                     |Presentación de mejores squads|           
-| 12:00 |                   |                     |Deliberación del jurado     |
-|>13:00 |                   |                     |                            |
-| 20:00 |                   |                     |                            |
+Para definir el usuario se realizó un form de google a 42 personas con preguntas sobre el contenido que prefieren ver en la página web.
 
-## **Tips para la organización de trabajo entre UX y Front end**
+###   Encuesta y análisis
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
+<a href="https://ibb.co/qx9VpCB"><img src="https://i.ibb.co/stQzqCj/Screenshot-9.png" alt="Screenshot-9" border="0"></a>
 
-## **¿Qué es la Feria de demos?**
+La edad de los encuestados fluctúa entre los 18 y 81, sin embargo, donde se encuentra la mayoría de personas es entre los 18 y 34 años. Este dato es muy importante porque así se puede segregar por edad.
+***
+<a href="https://ibb.co/DQvPGKF"><img src="https://i.ibb.co/89fnz8w/Screenshot-1.png" alt="Screenshot-1" border="0"></a> 
 
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
+El 74,4‬% de las personas afirma ver películas por semana. Este dato es relevante para percatarse que este pasatiempo siempre ha estado muy vigente. 
+***
 
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 3 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
+<a href="https://ibb.co/xg5W13t"><img src="https://i.ibb.co/09JTCQR/Screenshot-2.png" alt="Screenshot-2" border="0"></a>
+
+El año 2011 que la plataforma de Netflix llegó a Chile, desde entonces su crecimiento ha sido exponencial y han aparecido muchas otras plataformas digitales. 
+La comodidad de estas ha sido clave para que al 90,7% de los encuestados asuman que utilizan plataformas de streaming para el consumo de películas.
+***
+<a href="https://ibb.co/xm3Vdf4"><img src="https://i.ibb.co/k3MYv9d/Screenshot-10.png" alt="Screenshot-10" border="0"></a>
+Los géneros preferidos de los encuestados son **acción**, **comedia** y **ciencia ficción**. Estos datos son importantes para jerarquizar el contenido de la app.
+***
+<a href="https://ibb.co/gjrGwkr"><img src="https://i.ibb.co/j68dGn8/screenshot-3.png" alt="screenshot-3" border="0"></a> 
+
+El 48,8% prefieren una recomendación de alguien cercano, por ende en la app se puede puede aplicar compartiendo el link sobre alguna película específica.
+***
+<a href="https://ibb.co/fSvtyS9"><img src="https://i.ibb.co/ky10wyJ/Screenshot-4.png" alt="Screenshot-4" border="0"></a>
+Las películas de estreno son las más populares entre los encuestados, para una mejor experiencia de nuestros usuarios se considerará mostrar este tipo de películas en el inicio.
+***
+
+<a href="https://ibb.co/7GjRzjk"><img src="https://i.ibb.co/Jzmydm3/Screenshot-5.png" alt="Screenshot-5" border="0"></a>
+
+El género, los actores y una pequeña reseña son las informaciones más relevantes según la encuesta, estos datos serán considerados.
+
+### Conclusión de encuesta:
+
+La conclusión que sacamos de esta encuesta general que nuestros usuarios son principalmente **millennials**(18 a 36 años), esta segregación de personas tiende a ser personas donde la tecnología está integrada en todas las actividades que desarrollan. Conocen bien sobre tecnología y se adaptan rápidamente. 
+  
+## 4.- Historias de usuario:
+
+ **Historia de usuario 1:**
+
+Yo como: usuario de la plataforma web. 
+
+Quiero: nombre y imagen de la películas.
+
+Funcionalidad: tener una vista rápida de las películas disponibles para saber si esta en la plataforma web. De esta manera tener una información rápida de la película ayudara a tener un acceso rápido a su objetivo.  
+
+Definición de terminado:el usuario al abrir la aplicación web podrá localizar  el nombre y la imagen de la películas. 
+
+**Historia de usuarios 2:**
+
+Yo como: usuario de la plataforma web. 
+
+Quiero: filtrar las películas según su genero. 
+
+Funcionalidad: comprender rápidamente la película y  decidir si es de mi interés verla o no.
+
+Definición de terminado:tener una idea del contenido de la película según los elementos comunes que abarquen.
+
+**Historia de usuario 3:**
+
+Yo como: usuario de la plataforma web
+
+Quiero: quiero conocer las peliculas a estrenar 
+
+Funcionalidad:conocer todos los detalles de la pelicula. 
+
+Definicion de terminado: el usuario podra tener una vista de los estrenos en pantalla e informacion referente a la pelicula  mediante un carrusel web.
+
+## 5.- Flujo de app
+
+<a href="https://ibb.co/hFt74TK"><img src="https://i.ibb.co/fdP1yTC/2b763476-78cc-42ba-85ed-29ac843bb88a.jpg" alt="2b763476-78cc-42ba-85ed-29ac843bb88a" border="0"></a>
+<a href="https://ibb.co/PQszPNL"><img src="https://i.ibb.co/gVbFf32/992dd3a5-e19f-421e-bf1e-a2fe570c4acc.jpg" alt="992dd3a5-e19f-421e-bf1e-a2fe570c4acc" border="0"></a>
+
+## 6.- Diseño UI
+
+### Inspiraciones para definir app
+<a href="https://ibb.co/WkVCgjJ"><img src="https://i.ibb.co/StfSRGC/Screenshot-4q.png" alt="Screenshot-4q" border="0"></a>
+<a href="https://ibb.co/JHDMGD7"><img src="https://i.ibb.co/4ph5XhT/Screenshot-5q.png" alt="Screenshot-5q" border="0"></a>
+<a href="https://ibb.co/jDzHnSx"><img src="https://i.ibb.co/cQwx4jp/Screenshot-6.png" alt="Screenshot-6" border="0"></a>
+<a href="https://ibb.co/WFrMSfH"><img src="https://i.ibb.co/q9HcbpD/Screenshot-8.png" alt="Screenshot-8" border="0"></a>
+
+Según estas plataformas de streaming y cine se analiza que todas tienen un menú superior y el logotipo en la esquina superior izquierda y los filtros o búsqueda en la derecha de la página. Y por lo general en la pantalla principal una cuadrícula con las imágenes de las películas. Todas las páginas muy visuales y dinámicas.
+
+### Paleta de colores
+Los colores de las páginas de inspiración son principalmente rojo, blanco y/o negro y por otro lado azul, blanco, amarillo y negro. Es por ello que los colores escogidos son los siguientes: 
+
+<a href="https://ibb.co/Jz5x3Tn"><img src="https://i.ibb.co/cNDbY9J/Colores-01.jpg" alt="Colores-01" border="0"></a>
+
+Además se eligieron colores con alto contraste para mantener una página accesible.
+
+### Fuentes
+Para este proyecto se escogieron dos fuentes, una para títulos y encabezados y otra para el cuerpo. 
+El criterio de elección fue en base a la accesibilidad, ya que ambas tipografías son de fácil lectura.
+
+<a href="https://ibb.co/tQY5vBh"><img src="https://i.ibb.co/6rD5TYZ/fuentes01-01.jpg" alt="fuentes01-01" border="0"></a>
+
+### Logotipo
+Siguiendo la paleta de colores y la fuente de títulos se diseñó un logotipo con un alto contraste de colores entre la tipografía y fondo.
+
+<a href="https://ibb.co/Z85LPxm"><img src="https://i.ibb.co/mqkDw48/logotipo-02-01.jpg" alt="logotipo-02-01" border="0"></a>
+

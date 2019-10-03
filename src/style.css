@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background-image: url(imagenes/background-01.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    background-position-x: center;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 5% auto ;
+}
+#root{
+   
+    
+    width: 80%;
+    max-width: 1500px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas:
+                         "header header header header"
+                         "contenedorimg contenedorimg contenedorimg";
+ 
+                       
+}
+
+.header{
+    grid-area: header;
+}
+
+
+.style-card {
+    background: #ae0000;
+     margin:1%;
+    padding: 5%; 
+ 
+}
+.logo {
+    width: 80%;
+}
+#return {
+    width: 20%;
+    border: none;
+    background: none;
+}
+
