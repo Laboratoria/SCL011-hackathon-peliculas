@@ -67,7 +67,7 @@ propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/v
 |------ | -------------------| ------------------ | -------------------------- |
 | 8:00  |  Kick off hackaton |  Daily por squad   |  Daily por squad           |
 | 9:00  |  Sesión de planificación|  Hackeo       |  Hackeo/Detalles finales/ Inscripción de aplicaciones            
-| 10:00 |  Hackeo|          |                     |Feria de demostraciones     |
+| 10:00 |  Hackeo|          |                     |  Feria de demostraciones   |
 | 11:00 |                   |                     |Presentación de mejores squads|           
 | 12:00 |                   |                     |Deliberación del jurado     |
 |>13:00 |                   |                     |                            |
