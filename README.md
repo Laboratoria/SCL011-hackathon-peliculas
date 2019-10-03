@@ -146,8 +146,8 @@ Siguiendo la paleta de colores y la fuente de títulos se diseñó un logotipo c
 
 ## 8.- Testing
 
-Para el testeo de la web se realizó un prototipo de alta fidelidad en Figma. En el siguiente link se encuentra prototipo de móvil y computador.
-https://www.figma.com/file/sCSqBYrNAxUBbuTFMuz0wd/Untitled?node-id=12%3A0
+Para el testeo de la web se realizó un prototipo de alta fidelidad en Figma. En el siguiente link se encuentra prototipo de móvil y computador 
+>(https://www.figma.com/file/sCSqBYrNAxUBbuTFMuz0wd/Untitled?node-id=12%3A0)
 
 ###  Prototipo de alta fidelidad 
 **Mobile first**
