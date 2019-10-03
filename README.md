@@ -172,8 +172,18 @@ En la pantalla de inicio se hizo un botón para cambiar contraste de página.
 
 Como resultado de la investigación estadística el 85 % de la población millennials aproximadamente utiliza aplicaciones de películas, y el 74% lo utiliza una vez o dos veces por semana.
 
- En esta época gran parte del grupo etario millennials dedica de su tiempo libre a consumir páginas de películas, por eso creamos un buscador de películas accesible, dinámico, llamativo y fácil de usar.
+En esta época gran parte del grupo etario millennials dedica de su tiempo libre a consumir páginas de películas, por eso creamos un buscador de películas accesible, dinámico, llamativo y fácil de usar.
  
 En nuestras próximas iteraciones se aplicara elementos de accesibilidad ya que nuestro grupo de usuario ya esta muy asociado a la tecnología y buscan tener la mejor experiencia en las paginas.
 
 Los filtros fueron creados según necesidad y gusto de nuestros usuarios, logramos que nuestra web tuviera mínimas diferencias con nuestro prototipado de alta fidelidad.
+
+Para  la realización de nuestro producto dividimos las tareas entre las cuatro integrantes:
+
+ - Irene Monzon: Organización, desarrollo del Javascript, Html,readme, deploy.
+
+ - Paula Godoy: Organizacion,definición de usuario, desarrollo del readme,realización de prototipo alta   y baja fidelidad, desarrollar estilos en css.
+
+-  Maria Jose Campos: Realización del flujo de la aplicacion, historias de usuario,readme,desarrollar      estilos en css.
+
+ - Daniela OLivares: Desarrollo del Javascript, html, readme, estilos de css.
