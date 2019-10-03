@@ -12,12 +12,13 @@ body{
 header{
     display: flex;
     width: 100%;
-    flex-direction: row;
     justify-content: space-evenly;
     margin: 5% auto ;
 }
 #root{
     display: grid;
+    flex-direction: row;
+    flex-flow:wrap;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 4%;
     align-items: baseline;
