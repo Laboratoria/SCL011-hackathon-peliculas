@@ -8,34 +8,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
-    <header class="header" id="filters">
+<body>  
+    <header id="filters">
         <!-- <label for="">GENERO</label> -->
 
 <button id="return"><img src="imagenes/logotipo-02-01.jpg" alt="Logotipo Movilennialls" class="logo"></button>
 
 
-       <select id="filtersgenres">
-        <option selected disabled>Seleccione Genero</option>
-        <option value="28">Acción</option>
-        <option value="35">Comedia</option>
-        <option value="878">Ciencia Ficción</option>
-        <option value="18">Drama</option>
-        <option value="53">Terror</option>
-        <option value="10749">Romance</option>
+       <select id="filtersgenres" class="filtersGenres">
+            <option selected disabled>Seleccione Género</option>
+            <option value="28">Acción</option>
+            <option value="35">Comedia</option>
+            <option value="878">Ciencia Ficción</option>
+            <option value="18">Drama</option>
+            <option value="53">Terror</option>
+            <option value="10749">Romance</option>
       </select>
 
 
     <div class="ui category search">
             <div class="ui icon input">
-              <input id="searchtitle" class="prompt" type="text" placeholder="Busca por película...">
-              <button class="ui inverted red button" id="btnsearch">Buscar</button>
-            </div>
-    </header>
-    <br>
-    <div class="contenedorimg"></div>
+            <input id="searchtitle" class="prompt" type="text" placeholder="Busca por película...">
+            <button class="ui inverted red button" id="btnsearch">Buscar</button>
+    </div>
+</header>
 
-    <div id="root"></div>
+    <br>
+
+
+    <div id="root" class="rooty"></div>
+
+    <footer id="footNote"> Laboratoria ©Todos los derechos reservados| Creado por Irene Monzon, Paula Godoy, Ma. Jose Gomez, Daniela Olivares
+  
+    <div id="logoLaboratoria"><a href="https://www.laboratoria.la" target="_blank">Laboratoria</a>
+    </div></footer>
+
+  
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="main.js"></script>
 </body>
