@@ -86,5 +86,3 @@ returnhome.addEventListener('click',()=>{
     location.reload();
 
 });
-
-
