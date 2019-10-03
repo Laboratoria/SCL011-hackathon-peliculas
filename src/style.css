@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background-image: url(imagenes/background-01.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    background-position-x: center;
+}
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5% auto ;
+}
+#root{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 4%;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.style-card {
+    background: #ae0000;
+
+}
+.logo {
+    width: 80%;
+}
+#return {
+    width: 20%;
+    border: none;
+    background: none;
+}
+

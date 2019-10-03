@@ -15,19 +15,7 @@
 -   Paleta de colores
 -   Tipografías
 
- 5.- Research
-
-   -   Experiencia/Requerimientos
-    -   Sketch
-    -   Planificación
-    -   Decisiones de diseño
-    -   Prototipo de mediana fidelidad
-    -   Prototipo de alta fidelidad
-
 7.- Testing
--   Testeos
-	- Problema de usabilidad
-	- Mejoras 
 	
 8.-   Conclusiones
 
@@ -118,7 +106,10 @@ Funcionalidad:conocer todos los detalles de la pelicula.
 
 Definicion de terminado: el usuario podra tener una vista de los estrenos en pantalla e informacion referente a la pelicula  mediante un carrusel web.
 
-5.- Flujo de app
+## 5.- Flujo de app
+
+<a href="https://ibb.co/hFt74TK"><img src="https://i.ibb.co/fdP1yTC/2b763476-78cc-42ba-85ed-29ac843bb88a.jpg" alt="2b763476-78cc-42ba-85ed-29ac843bb88a" border="0"></a>
+<a href="https://ibb.co/PQszPNL"><img src="https://i.ibb.co/gVbFf32/992dd3a5-e19f-421e-bf1e-a2fe570c4acc.jpg" alt="992dd3a5-e19f-421e-bf1e-a2fe570c4acc" border="0"></a>
 
 ## 6.- Diseño UI
 
