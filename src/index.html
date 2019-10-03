@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <title>Movilennialls</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <header id="filters">
         <!-- <label for="">GENERO</label> -->
+
+<button id="return"><img src="imagenes/logotipo-02-01.jpg" alt="Logotipo Movilennialls" class="logo"></button>
+
+
        <select id="filtersgenres">
         <option selected disabled>Seleccione Genero</option>
         <option value="28">Acción</option>
@@ -20,11 +24,19 @@
         <option value="53">Terror</option>
         <option value="10749">Romance</option>
       </select>
-        <input id="searchtitle" placeholder="Search for name"></input>
-        <button class="ui inverted red button" id="btnsearch">Buscar</button>
-        <button id="return">Pagina Inicial</button>
+
+
+    <div class="ui category search">
+            <div class="ui icon input">
+              <input id="searchtitle" class="prompt" type="text" placeholder="Busca por película...">
+              <button class="ui inverted red button" id="btnsearch">Buscar</button>
+            </div>
+    
+   
+       
     </header>
     <br>
+
     <div id="root"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="main.js"></script>
