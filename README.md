@@ -9,15 +9,15 @@
    
 4.- Historias de usuario
 5.- Flujo de app
-
-6.- Desarrollo de Interfaz UI
+6.- Sketches
+7.- Desarrollo de Interfaz UI
 - Inspiraciones para definir app
 -   Paleta de colores
--   Tipografías
+-  Tipografías
+-  Logotipo
 
-7.- Testing
-	
-8.-   Conclusiones
+8.- Testing
+9.-   Conclusiones y detalle de tareas por cada integrante
 
 
 ## **1. Preámbulo**
@@ -109,9 +109,14 @@ Definicion de terminado: el usuario podra tener una vista de los estrenos en pan
 ## 5.- Flujo de app
 
 <a href="https://ibb.co/hFt74TK"><img src="https://i.ibb.co/fdP1yTC/2b763476-78cc-42ba-85ed-29ac843bb88a.jpg" alt="2b763476-78cc-42ba-85ed-29ac843bb88a" border="0"></a>
-<a href="https://ibb.co/PQszPNL"><img src="https://i.ibb.co/gVbFf32/992dd3a5-e19f-421e-bf1e-a2fe570c4acc.jpg" alt="992dd3a5-e19f-421e-bf1e-a2fe570c4acc" border="0"></a>
+<a  href="https://ibb.co/PQszPNL"><img  src="https://i.ibb.co/gVbFf32/992dd3a5-e19f-421e-bf1e-a2fe570c4acc.jpg"  alt="992dd3a5-e19f-421e-bf1e-a2fe570c4acc"  border="0"></a>
 
-## 6.- Diseño UI
+## 6.- Sketches
+
+<a href="https://ibb.co/Np8b5T9"><img src="https://i.ibb.co/6b3LzXH/20191003-002412.jpg" alt="20191003-002412" border="0"></a>
+<a href="https://ibb.co/hW0PWYg"><img src="https://i.ibb.co/vP97PXc/20191003-002418.jpg" alt="20191003-002418" border="0"></a>
+
+## 7.- Desarrollo de Interfaz UI
 
 ### Inspiraciones para definir app
 <a href="https://ibb.co/WkVCgjJ"><img src="https://i.ibb.co/StfSRGC/Screenshot-4q.png" alt="Screenshot-4q" border="0"></a>
@@ -139,3 +144,36 @@ Siguiendo la paleta de colores y la fuente de títulos se diseñó un logotipo c
 
 <a href="https://ibb.co/Z85LPxm"><img src="https://i.ibb.co/mqkDw48/logotipo-02-01.jpg" alt="logotipo-02-01" border="0"></a>
 
+## 8.- Testing
+
+Para el testeo de la web se realizó un prototipo de alta fidelidad en Figma. En el siguiente link se encuentra prototipo de móvil y computador.
+https://www.figma.com/file/sCSqBYrNAxUBbuTFMuz0wd/Untitled?node-id=12%3A0
+
+###  Prototipo de alta fidelidad 
+**Mobile first**
+
+Se realizó una página de inicio para buscar inmediatamente por nombre y filtrar por género de películas. O simplemente se puede ingresar a navegar clickeando el logo.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Tb1DpQJ/mobile.png" alt="mobile" border="0"></a>
+**Desktop**
+
+En la pantalla de inicio se hizo un botón para cambiar contraste de página.
+
+<a href="https://ibb.co/vshwLWF"><img src="https://i.ibb.co/wJ70pqk/prototipo.png" alt="prototipo" border="0"></a>
+<a href="https://ibb.co/ZSNQ1TF"><img src="https://i.ibb.co/nBRX8kY/Screenshot-22.png" alt="Screenshot-22" border="0"></a>
+
+
+## 9.- Nuestro Producto Final**
+
+> **¿Quieres verlo funcionar?** Anda ahora mismo a revisar nuestro [Github](https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html)
+
+
+## 10.-   Conclusiones y detalle de tareas por cada integrante
+
+Como resultado de la investigación estadística el 85 % de la población millennials aproximadamente utiliza aplicaciones de películas, y el 74% lo utiliza una vez o dos veces por semana.
+
+ En esta época gran parte del grupo etario millennials dedica de su tiempo libre a consumir páginas de películas, por eso creamos un buscador de películas accesible, dinámico, llamativo y fácil de usar.
+ 
+En nuestras próximas iteraciones se aplicara elementos de accesibilidad ya que nuestro grupo de usuario ya esta muy asociado a la tecnología y buscan tener la mejor experiencia en las paginas.
+
+Los filtros fueron creados según necesidad y gusto de nuestros usuarios, logramos que nuestra web tuviera mínimas diferencias con nuestro prototipado de alta fidelidad.
