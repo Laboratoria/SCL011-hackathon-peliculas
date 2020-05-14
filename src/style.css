@@ -1,33 +1,66 @@
-*{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-body{
+
+ body{
     background-image: url(imagenes/background-01.png);
     background-attachment: fixed;
     background-size: cover;
-    background-color: black;
     background-position-x: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: sans-serif;
+} 
+
 header{
+	width: 100%;
+	height: 100px;
+	background: rgba(37, 35, 35, 0.17);
     display: flex;
-    width: 90%;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 5%;
     align-items: center;
+
 }
-.filtersGenres{
-    width: 20%;
+
+.filtersGenres {
+	width: 20%;
     height: 35px;
+    margin-left: 20px;
     font-size: 12pt;
-    border-radius: 30px;
-    background: #FFF;
-    color:grey;
+    border-radius: 4px;
+    /* background: rgb(8, 8, 8); */
+    color: grey;
+}
+
+.btn{
+	width: 15%;
+    height: 35px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-right: x;
+    background: firebrick;
+    color: white;
+    border-radius: 4px;
+}
+
+.input{
+	width: 20%;
+    height: 20px;
+    margin-left: 40px;
+    font-size: 12pt;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+}
+
+#return:hover{
+	transform: scale(1.05, 1.05);
+
+}
+
+.btn:hover{
+	transform: scale(1.05, 1.05);
+	color: red;
+
 }
 .logo {
-    width: 70%;
+    width: 50%;
 }
 #return {
     width: 30%;
@@ -36,37 +69,177 @@ header{
 }
 
 /*Tarjetas*/
-img {
-    width: 50%;
-    border-radius: 8%;
+.image {
+    width: 297px;
+    height: 250px;
+
+
 }
-.rooty{
+
+.contenedor{
+    width: auto;
     display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    margin-left: 14%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	margin: 50px;
+	padding: 60PX 0;
+	margin-top: 550px;
+
+ 
 }
 .style-card {
-    width: 30%;
-    margin-top: 2%;
+    width: 300px;
+    margin-top: 5rem;
+    justify-content: space-around;
+    background: #292727;
+}
+.style-card:hover{
+    transform: scale(1.05, 1.05);
 }
 .seccion{
-    background: #ae0000;
-    border-radius: 5%;
-    width: 50%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    background: #292727;
+    color: wheat;
+    padding: 15px;
 }
 a{
     color: #FFF;
     font-size: 25px;
 }
 #footNote{
+
+    margin-top: 70px;
+    margin-bottom: 50PX;
+    color: #FFF;
     text-align:center;
     font-size: 20px;
     position: relative; 
-    color: white;
-    margin: 3%;
 }
 
 
+
+
+ /* 
+
+*********************************SLAIDER********************************** */
+
+
+.sliderPeli{
+    width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+@keyframes miAnimacion{
+	
+	0%{
+		opacity:1;
+		}
+		
+	20%{	
+		opacity:1;
+		}
+		
+	30%{
+		opacity:0;
+		}
+		
+	90%{
+		opacity:0;
+		}
+		
+	100%{
+		opacity:1;
+		}
+
+	}
+	
+@-webkit-keyframes miAnimacion{
+	
+	0%{
+		opacity:1;
+		}
+		
+	20%{	
+		opacity:1;
+		}
+		
+	30%{
+		opacity:0;
+		}
+		
+	90%{
+		opacity:0;
+		}
+		
+	100%{
+		opacity:1;
+		}
+
+	}
+	
+@-moz-keyframes miAnimacion{
+	
+	0%{
+		opacity:1;
+		}
+		
+	20%{	
+		opacity:1;
+		}
+		
+	30%{
+		opacity:0;
+		}
+		
+	90%{
+		opacity:0;
+		}
+		
+	100%{
+		opacity:1;
+		}
+
+	}
+	
+.fondo1{
+	position:absolute;
+	width:100%;
+	height:100vh;
+	background:url(../imagenes/pelicula1.jpg);
+		animation:miAnimacion 24s linear 18s infinite;
+	-webkit-animation:miAnimacion 24s linear 18s infinite;
+	-moz-animation:miAnimacion 24s linear 18s infinite;
+	}
+	
+.fondo2{
+	position:absolute;
+	width:100%;
+	height:100vh;
+	background:url(../imagenes/pelicula2.jpg);
+	background-size:cover;
+	animation:miAnimacion 24s linear 12s infinite;
+	-webkit-animation:miAnimacion 24s linear 12s infinite;
+	-moz-animation:miAnimacion 24s linear 12s infinite;
+	}
+	
+.fondo3{
+	position:absolute;
+	width:100%;
+	height:100vh;
+	background:url(../imagenes/pelicula3.jpg);
+	background-size:cover;
+	animation:miAnimacion 24s linear 6s infinite;
+	-webkit-animation:miAnimacion 24s linear 6s infinite;
+	-moz-animation:miAnimacion 24s linear 6s infinite;
+	}
+	
+.fondo4{
+	position:absolute;
+	width:100%;
+	height:100vh;
+	background:url(../imagenes/pelicula4.jpg);
+	animation:miAnimacion 24s linear 0s infinite;
+	-webkit-animation:miAnimacion 24s linear 0s infinite;
+	-moz-animation:miAnimacion 24s linear 0s infinite;
+	}

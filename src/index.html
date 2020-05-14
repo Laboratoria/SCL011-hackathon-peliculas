@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">  
     <title>Movilennialls</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>  
-    <header id="filters">
-        <!-- <label for="">GENERO</label> -->
+<header id="filters">
 
-<button id="return"><img src="imagenes/logotipo-02-01.jpg" alt="Logotipo Movilennialls" class="logo"></button>
+<button id="return"><img class="logo" src="imagenes/logotipo-02-01.jpg" alt="Logotipo Movilennialls"></button>
 
 
-       <select id="filtersgenres" class="filtersGenres">
+        <select id="filtersgenres" class="filtersGenres">
             <option selected disabled>Seleccione Género</option>
             <option value="28">Acción</option>
             <option value="35">Comedia</option>
@@ -26,24 +24,46 @@
       </select>
 
 
-    <div class="ui category search">
-            <div class="ui icon input">
-            <input id="searchtitle" class="prompt" type="text" placeholder="Busca por película...">
-            <button class="ui inverted red button" id="btnsearch">Buscar</button>
-    </div>
+   
+        <input id="searchtitle" class="input" type="text" placeholder="Busca por película...">
+        <button class="btn" id="btnsearch">BUSCAR</button>
+       
+
+
+   
 </header>
+   
+<section class="slider">
+  
+    <div class="fondo1">
 
-    <br>
+     <img  class="sliderPeli"src="imagenes/pelicula1.jpg" alt=""> 
+   
+</div>
+    
+            <div class="fondo2">
+    <img class="sliderPeli"src="imagenes/pelicula2.jpg" alt="">
+            </div>
+    
+            <div class="fondo3">
+    <img class="sliderPeli" src="imagenes/pelicula3.jpg" alt="">
+            </div>
+            
+            <div class="fondo4">
+    <img class="sliderPeli" src="imagenes/pelicula4.jpg" alt="">
+            </div>
+       
+    </section>
 
+    <section id="root" class="contenedor">
+       
+       
+    </section>
 
-    <div id="root" class="rooty"></div>
-
-    <footer id="footNote"> Laboratoria ©Todos los derechos reservados| Creado por Irene Monzon, Paula Godoy, Ma. Jose Gomez, Daniela Olivares
+    <footer id="footNote"> Laboratoria ©Todos los derechos reservados | Creado por Irene Monzon, Paula Godoy, Ma. Jose Gomez, Daniela Olivares
   
     <div id="logoLaboratoria"><a href="https://www.laboratoria.la" target="_blank">Laboratoria</a>
     </div></footer>
-
-  
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
